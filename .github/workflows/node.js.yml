@@ -14,11 +14,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '17.9.1'
-      - run: sudo mkdir -p /home/runner/tmp
-      - run: sudo npm cache clear
-      - run: ls -a
       - run: npm install
-      - run: ls -a
       - run: npm run build --if-present
       - run: npm test
       
