@@ -16,6 +16,7 @@ jobs:
           node-version: '17.9.1'
       - run: ls
       - run: npm install
+      - run: ls
       - run: npm run build --if-present
       - run: npm test
       
