@@ -10,6 +10,7 @@ jobs:
     steps:
       - name: Install the latest version of npm
         uses: actions/setup-node@v3
+      - run: sudo apt-cache madison npm
       - run: sudo apt install npm=9.6.4
       
       - uses: actions/checkout@v3
