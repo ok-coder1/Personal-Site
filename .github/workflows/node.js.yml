@@ -14,9 +14,9 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '17.9.1'
-      - run: npm@8 ci
-      - run: npm@8 run build --if-present
-      - run: npm@8 test
+      - run: npm8 ci
+      - run: npm8 run build --if-present
+      - run: npm8 test
       
       - name: Setup Node.js environment
         uses: actions/setup-node@v3
