@@ -1,16 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; URL=http://localhost:3000/redirect-url"/>
     <script src="Personal-Site.js"></script>
     <title>Best's Personal Site</title>
   </head>
   <body>
     <h1>Please login.</h1>
-    <script>
-      fetch('/redirect-url')
-        .then(response => response.text())
-        .then(url => window.location.href = url)
-    </script>
   </body>
 </html>
