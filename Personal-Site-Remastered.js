@@ -13,4 +13,4 @@ function checkProcess()
   }
 }
 
-setInterval(checkProcess, 1);
+setInterval(checkProcess);
